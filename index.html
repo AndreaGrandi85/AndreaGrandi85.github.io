@@ -1,73 +1,51 @@
 <html><head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href="Homepage_prova.css" rel="stylesheet" type="text/css">
+        <style>
+          .section.text-center {
+            background-image: url(background.jpeg);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            padding-top: 1rem;
+          }
+          .text-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 2rem;
+          }
+          .text-container.as-column {
+            flex-direction: column;
+            align-items: flex-end;
+            display: flex;
+          }
+          .logo {
+            height: 3.6rem;
+          }
+          .name {
+            margin: 0;
+            padding: 0;
+            padding-top: 0.3rem;
+            margin-left: 1rem;
+          }
+          h2.name {
+            font-size: 2rem;
+          }
+        </style>
     </head><body>
-        <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand"><span>Andrea Grandi</span></a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active">
-                            <a href="index.html">home</a>
-                        </li>
-                        <li>
-                            <a href="about.html">info</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">contatti</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="section text-center">
+        <div>
+          <div class="text-container">
+            <img src="logo.png" class="img-responsive logo">
+            <h1 class="name">Andrea Grandi</h1>
+          </div>
+          <div class="text-container as-column">
+            <h2 class="name">20142 via Barona 25, Milano</h2>
+            <h2 class="name">studio@andreagrandi.com</h2>
+            <a href="https://www.instagram.com/andrea__grandi__"><h2 class="name">andrea__grandi__</h2></a>
+          </div>
         </div>
-        <div class="section text-center">
-            <div class="container">
-                <div class="row">
-                    <img src="grigio_chiaro.jpg" width="120" class="center-block img-responsive">
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 class="text-center"></h1>
-                        <p class="text-center lead" contenteditable="true">Architetto
-                            <br>...................................................................................................................................................</p>
-                    </div>
-                </div>
-                <div class="row-md">
-                    <div class="col-md-2">&nbsp;
-                        <p></p>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <a href="castiglioni_1.html"><img src="immaginiWeb/WebSite_Castiglioni/09_castiglioni_copertina.jpg" onmouseover="this.src='immaginiWeb/WebSite_Castiglioni/09_castiglioni_IF.jpg'" onmouseout="this.src='immaginiWeb/WebSite_Castiglioni/09_castiglioni_copertina.jpg'" class="center-block img-circle img-responsive" width="300"></a>&nbsp;
-                        <a href="magnago_1.html"><img src="immaginiWeb/WebSite_Magnago/06_magnago_copertina.jpg" class="center-block img-circle img-responsive" width="300" onmouseover="this.src='immaginiWeb/WebSite_Magnago/06_magnago_IF.jpg'" onmouseout="this.src='immaginiWeb/WebSite_Magnago/06_magnago_copertina.jpg'"></a>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <a href="rimoldi_1.html"><img src="immaginiWeb/Website_Rimoldi/10_rimoldi_copertina.jpg" class="center-block img-circle img-responsive" width="300" onmouseover="this.src='immaginiWeb/Website_Rimoldi/10_rimoldi_IF.jpg'" onmouseout="this.src=' immaginiWeb/Website_Rimoldi/10_rimoldi_copertina.jpg'"></a>&nbsp;
-                        <a href="tacchini_1.html"><img src="immaginiWeb/WebSite_Tacchini/00_tacchini_copertina.jpg" class="center-block img-circle img-responsive" width="300" onmouseover="this.src='immaginiWeb/WebSite_Tacchini/00_tacchini_IF.jpg'" onmouseout="this.src=' immaginiWeb/WebSite_Tacchini/00_tacchini_copertina.jpg'"></a>
-                    </div>
-                    <div class="col-md-2 text-center">
-                        <a href="colombo_1.html"><img src="immaginiWeb/WebSite_Colombo/13_colombo_copertina.jpg" class="center-block img-circle img-responsive" width="300" onmouseover="this.src='immaginiWeb/WebSite_Colombo/13_colombo_IF.jpg'" onmouseout="this.src='immaginiWeb/WebSite_Colombo/13_colombo_copertina.jpg'"></a>&nbsp;
-                        <a href="girlanda_1.html"><img src="immaginiWeb/WebSite_Girlanda/13_girlanda_copertina.jpg" class="center-block img-circle img-responsive" width="300" onmouseover="this.src='immaginiWeb/WebSite_Girlanda/13_girlanda_IF.jpg'" onmouseout="this.src='immaginiWeb/WebSite_Girlanda/13_girlanda_copertina.jpg'"></a>
-                    </div>
-                    <div class="col-md-2">
-                        <a href="briosco.html"><img src="immaginiWeb/WebSite_Briosco/10_briosco_copertina.jpg" class="center-block img-circle img-responsive" width="300" onmouseover="this.src='immaginiWeb/WebSite_Briosco/10_briosco_IF.jpg'" onmouseout="this.src='immaginiWeb/WebSite_Briosco/10_briosco_copertina.jpg'"></a>&nbsp;
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+      </div>
 </body></html>
+
